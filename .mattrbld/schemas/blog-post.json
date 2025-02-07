@@ -1,0 +1,239 @@
+{
+  "fields": [
+    {
+      "type": "container",
+      "icon": "placeholder",
+      "key": "___mb_visual_container",
+      "label": "Header",
+      "options": {
+        "collapsible": false,
+        "collapseByDefault": false,
+        "row": false,
+        "bordered": false
+      },
+      "tab": "Untitled Tab",
+      "value": [
+        {
+          "type": "text",
+          "default": null,
+          "icon": "text-input",
+          "key": "heading",
+          "label": "Heading",
+          "localised": false,
+          "options": {
+            "wrapping": true,
+            "multiline": false
+          },
+          "tab": "Untitled Tab",
+          "validation": {
+            "enforceMinMax": true,
+            "max": null,
+            "min": null,
+            "regex": null,
+            "regexError": null,
+            "required": true,
+            "unit": "length"
+          },
+          "value": null,
+          "version": 1,
+          "visibility": {
+            "hidden": false,
+            "showByValue": {
+              "field": null
+            }
+          }
+        },
+        {
+          "type": "image",
+          "default": null,
+          "icon": "image",
+          "key": "hero",
+          "label": "Hero",
+          "options": {
+            "resolutionHint": "1600 x 900",
+            "removable": true,
+            "simple": false
+          },
+          "tab": "Untitled Tab",
+          "validation": {
+            "max": null,
+            "required": true,
+            "unit": "filesize (MB)"
+          },
+          "value": null,
+          "version": 1,
+          "visibility": {
+            "hidden": false,
+            "showByValue": {
+              "field": null
+            }
+          }
+        }
+      ],
+      "version": 1,
+      "visibility": {
+        "hidden": false,
+        "showByValue": {
+          "field": null
+        }
+      },
+      "visualOnly": true
+    },
+    {
+      "type": "container",
+      "icon": "placeholder",
+      "key": "___mb_visual_container-1",
+      "label": "Meta",
+      "options": {
+        "collapsible": false,
+        "collapseByDefault": false,
+        "row": false,
+        "bordered": false
+      },
+      "tab": "Untitled Tab",
+      "value": [
+        {
+          "type": "tags",
+          "default": null,
+          "icon": "tags",
+          "key": "tags",
+          "label": "Tags",
+          "localised": false,
+          "options": {
+            "allowUnsuggested": true,
+            "autocompleteModel": []
+          },
+          "tab": "Untitled Tab",
+          "validation": {
+            "max": null,
+            "min": null,
+            "unit": "tags"
+          },
+          "value": null,
+          "version": 1,
+          "visibility": {
+            "hidden": false,
+            "showByValue": {
+              "field": null
+            }
+          }
+        },
+        {
+          "type": "date",
+          "default": null,
+          "icon": "calendar",
+          "key": "date",
+          "label": "Post date",
+          "options": {
+            "outputFormat": "iso",
+            "removable": false,
+            "showTime": true,
+            "defaultToNow": true,
+            "useAsUpdatedAt": false,
+            "only": null
+          },
+          "tab": "Untitled Tab",
+          "validation": {
+            "max": null,
+            "min": null,
+            "required": true,
+            "unit": "date",
+            "isString": true
+          },
+          "value": null,
+          "version": 2,
+          "visibility": {
+            "hidden": false,
+            "showByValue": {
+              "field": null
+            }
+          }
+        }
+      ],
+      "version": 1,
+      "visibility": {
+        "hidden": false,
+        "showByValue": {
+          "field": null
+        }
+      },
+      "visualOnly": true
+    },
+    {
+      "type": "rich text",
+      "default": null,
+      "icon": "text",
+      "key": "content",
+      "label": "Content",
+      "localised": false,
+      "options": {
+        "outputFormat": "html",
+        "blockFormats": [
+          "blockquote",
+          "heading",
+          "hr",
+          "orderedList",
+          "unorderedList",
+          "image"
+        ],
+        "inlineFormats": [
+          "em",
+          "strong",
+          "link"
+        ],
+        "formatOptions": [
+          "allowQuoteFooters",
+          "allowNestedLists",
+          "allowImageCaptions"
+        ],
+        "inputRuleOptions": [
+          "autoquotes",
+          "dashes",
+          "ellipsis",
+          "noDoubleCaps",
+          "noDoubleSpace"
+        ],
+        "minHeading": 2,
+        "maxHeading": 4,
+        "codeLangs": [
+          "html",
+          "css",
+          "javascript",
+          "markdown"
+        ],
+        "allowRaw": false,
+        "urlTemplate": "",
+        "urlSuffix": "",
+        "linkOptions": [
+          "forceBlankTarget",
+          "allowExternal",
+          "allowInternal"
+        ]
+      },
+      "tab": "Untitled Tab",
+      "validation": {
+        "enforceMinMax": true,
+        "max": null,
+        "min": null,
+        "regex": null,
+        "regexError": null,
+        "required": false,
+        "unit": "length"
+      },
+      "value": null,
+      "version": 1,
+      "visibility": {
+        "hidden": false,
+        "showByValue": {
+          "field": null
+        }
+      }
+    }
+  ],
+  "tabs": [
+    {
+      "label": "Untitled Tab",
+      "groupAs": null
+    }
+  ]
+}
